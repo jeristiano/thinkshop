@@ -1,6 +1,6 @@
 <?php
-include('F:/121/thinkshop/admin/data.php');
-include('F:/121/thinkshop/admin/function.php');
+include('../../admin/data.php');
+include('../../admin/function.php');
 session_start();
 if(isset($_POST['sub_x'])==false){
 	exit('非法访问');

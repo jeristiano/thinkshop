@@ -1,5 +1,5 @@
 <?php
-include('F:/121/thinkshop/admin/data.php');
+include('../../admin/data.php');
 session_start();
 //配置项
 $sql_cfg = "select * from ts_config"; 

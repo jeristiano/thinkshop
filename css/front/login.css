@@ -6,7 +6,7 @@
 		body{background:#32465d;}
 		/*logo*/
 		
-		 img{position:relative;left:10px;top:4px;width:200px;}
+		.logo_w img{position:relative;left:10px;top:4px;width:200px;}
 		.reg {width:60px;height:40px;line-height:40px;background:#d5d5d5;float:right;margin:12px 14px;border-radius:4px;text-align:center;}
 		.reg a {color:white;}
 
@@ -15,15 +15,15 @@
 		.form table{margin:80px auto;}
 		.fr_logo img{width:300px;position:relative;top:-13px;}
 		table tr{height:50px;}
-		.form .input input {width:300px;height:45px;border:1px solid white;border-radius:2px;padding-left:8px;}	
+		.form .input input {width:300px;height:35px;border:1px solid white;border-radius:2px;padding-left:8px;}	
 		
 		.login input{width:310px;}	
 		.login input{margin-top:10px;border-radius:2px;cursor:pointer;position:relative;left:0px;}
+		.login img{width:310px;}
 		.forgetpwd a{color:white;}
 		/*根部信息*/
-		.clear{clear:both;height:58px;}
-		
-		.foot li{float:left;line-height:40px; height:40px;padding:0px 12px;}
+		.clear{clear:both;height:20px;}		
+		.foot li{float:left;line-height:30px; height:30px;padding:0px 12px;}
 		li a{color:white;font-size:14px;}
 		
 	

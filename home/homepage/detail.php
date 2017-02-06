@@ -1,6 +1,6 @@
 <?php
- include('F:/121/thinkshop/admin/data.php');
- include('F:/121/thinkshop/home/head.php');
+ include('../../admin/data.php');
+ include('../head.php');
  if(isset($_GET['pid'])==false){
 	exit('非法访问');
  }
@@ -34,7 +34,7 @@ while($v = mysql_fetch_assoc($res_or)){
 	<link rel ='stylesheet' href = 'http://127.0.0.1/thinkshop/css/front/detail.css' type = 'text/css'>
 </head>			
 					
-<!---主页内容--------->		
+<!---主页内容-->		
 	<div class="product">
 		
 		<div class='product_l'>		
@@ -98,7 +98,7 @@ while($v = mysql_fetch_assoc($res_or)){
 		</div>
 		<div class="clear"></div>
 	</div> 
-<!---主页内容结束----->
+<!---主页内容结束-->
 	<div class="clear"></div>
 
 	<div class="course">
@@ -106,7 +106,7 @@ while($v = mysql_fetch_assoc($res_or)){
 		<span class='course_detail'><?php echo htmlspecialchars_decode($row['description']);?></span>
 	</div>
 
-<!---评价内容-------->
+<!---评价内容-->
 		<div class="comment">
 			
 			<div class="comment_cont1">学员评价:</div>
@@ -195,5 +195,5 @@ while($v = mysql_fetch_assoc($res_or)){
 </script>			
 	
 <?php
-	include('F:/121/thinkshop/home/foot.php');
+	include('../foot.php');
 ?>

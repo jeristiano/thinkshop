@@ -6,7 +6,7 @@ include('../data.php');
  if(isset($_GET['aid'])==false){
 	exit('非法访问');
 }
-	$sql="select * from admin where aid='{$aid}'";
+	$sql="select * from ts_admin where aid='{$aid}'";
 	$res = mysql_query($sql);
 	
 	$row = mysql_fetch_assoc($res);

@@ -1,7 +1,7 @@
 <?php
  include('../../head.php');
-include('../../data.php');
-include('../../function.php');
+include('../data.php');
+include('../function.php');
 $sql = 'select * from ts_comments';
 $res = mysql_query($sql);
 

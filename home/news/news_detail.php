@@ -1,7 +1,7 @@
 <?php
-include('F:/121/thinkshop/home/head.php');
-include('F:/121/thinkshop/admin/data.php');
-include('F:/121/thinkshop/admin/function.php');
+include('../head.php');
+include('../../admin/data.php');
+include('../../admin/function.php');
 
 //判断get传值
 $aid=isset($_GET["aid"])==true?$_GET["aid"]:exit("非法访问<a href='./news.php'></a>");
@@ -55,7 +55,7 @@ $res = mysql_query($sql);
 	<div class='clear'></div>
 	
 <?php
-	include('F:/121/thinkshop/home/foot.php');
+	include('../foot.php');
 	//点击本页一次,阅读数量增加一次
 	 $i = $res_tl['amount_rd'];
 	 $i++;	

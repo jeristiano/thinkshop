@@ -1,5 +1,5 @@
 <?php
-include('F:/121/thinkshop/admin/data.php');
+include('../data.php');
 
 //判断是否由get传值
 
@@ -23,7 +23,7 @@ $aid =$_POST['aid'];
 			exit("手机号码有误,11位!<a href='./edit_user.php'>返回</a>");
 			}
 
-$sql="update admin set  email='{$email}',cellphone='{$cellphone}' where aid='{$aid}'";
+$sql="update ts_admin set  email='{$email}',cellphone='{$cellphone}' where aid='{$aid}'";
 
 	$res = mysql_query($sql);
 	//判断

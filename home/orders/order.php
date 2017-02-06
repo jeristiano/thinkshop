@@ -1,7 +1,7 @@
 <?php
-include('F:/121/thinkshop/admin/data.php');
-include('F:/121/thinkshop/admin/function.php');
-include('F:/121/thinkshop/home/head.php');
+include('../../admin/data.php');
+include('../..//admin/function.php');
+include('../head.php');
 
 //未登录,不能查看订单
 if(@empty($_SESSION['uid'])==true){
@@ -102,8 +102,7 @@ $res = mysql_query($sql);
 			
 		</div>
 		<div class='block'></div>
-<!-------订单结束------------>	
 
 <?php
-include('F:/121/thinkshop/home/foot.php');
+include('../foot.php');
 ?>

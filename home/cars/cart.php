@@ -1,6 +1,6 @@
 <?php
-include('F:/121/thinkshop/admin/data.php');
-include('F:/121/thinkshop/admin/function.php');
+include('../../admin/data.php');
+include('../../admin/function.php');
 session_start();
 
 //若没登录,不能查看购物车
@@ -86,7 +86,7 @@ while($row_cfg = mysql_fetch_assoc($res_cfg)){
 		</div>
 		
 		
-<!---搜索栏--------->			
+<!---搜索栏-->			
 	<?php
 		if(isset($_GET["ctg"])==true && empty($_GET["ctg"])==false){
 			$ctg = $_GET["ctg"];
@@ -137,7 +137,6 @@ while($row_cfg = mysql_fetch_assoc($res_cfg)){
 		</ul>
 	
 	</div>
-<!-------------购物车----------------------->
 		<div class="cartlist">
 			
 			<table  >
@@ -225,9 +224,7 @@ while($row_cfg = mysql_fetch_assoc($res_cfg)){
 		
 	<div class='blank'></div>
 
-			
 	
-<!------------js内容---------------->		
 	<script>
 		var del =function(pid){
 			
@@ -240,5 +237,5 @@ while($row_cfg = mysql_fetch_assoc($res_cfg)){
 
 
 <?php
-include('F:/121/thinkshop/home/foot.php');
+include('../foot.php');
 ?>

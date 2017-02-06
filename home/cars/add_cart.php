@@ -1,5 +1,5 @@
 <?php
- include('F:/121/thinkshop/admin/function.php');
+ include('../../admin/function.php');
 session_start();
 
 if(isset($_POST['pid'])==false){

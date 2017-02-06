@@ -3,9 +3,9 @@ if(@$_GET["nid"]==6){?>
 	<img style='width:1300px; height:600px;'src="http://127.0.0.1/thinkshop/img/frontend/not.jpg">
 <?php exit;}?>
 <?php
-include('F:/121/thinkshop/home/head.php');
-include('F:/121/thinkshop/admin/data.php');
-include('F:/121/thinkshop/admin/function.php');
+include('../head.php');
+include('../../admin/data.php');
+include('../../admin/function.php');
 $sql = "select * from ts_news_ctgs";
 $res = mysql_query($sql);
 ?>
@@ -52,5 +52,5 @@ $res = mysql_query($sql);
 	<div class='clear'></div>
 	
 <?php
-	include('F:/121/thinkshop/home/foot.php');
+	include('../foot.php');
 ?>

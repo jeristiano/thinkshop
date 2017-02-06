@@ -1,8 +1,7 @@
 <?php
 session_start();
-include('F:/121/thinkshop/admin/data.php');
-include('F:/121/thinkshop/admin/function.php');
-
+include('../../admin/data.php');
+include('../../admin/function.php');
 if(isset($_POST['uname'])==false){
 	exit('非法访问');
 

@@ -1,5 +1,5 @@
 <?php
-include('F:/121/thinkshop/home/head.php');
+include('../head.php');
 
 ?>
 <style>

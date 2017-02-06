@@ -1,5 +1,7 @@
 <?php
-include('./admin/data.php');
+$link=@mysql_connect('127.0.0.1','root','root') or exit('服务器链接失败');
+mysql_select_db('thinkshop') or exit('数据库不存在');
+mysql_query('set names utf8');
 session_start();
 //判断session,如果用户已登录,才可查看数据库订单数量
 if( isset($_SESSION['uid'])==true &&$_SESSION['uid']!=''){

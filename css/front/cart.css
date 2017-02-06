@@ -1,0 +1,91 @@
+		/**初始化信息**/
+	*{padding:0px;margin:0px;font-size:16px;color:#000000;font-family:微软雅黑;text-decoration:none;list-style-type:none;}
+
+	/**外边框**/
+	
+	.wrap{width:1349px;margin:0px auto;}
+	
+	/**顶部工具栏**/
+	.toolbar{width:1349px;height:35px;background:#f5f8fa;}
+	.toolbar li,.toolbar a {float:left; color:#414141;font-size:14px;}
+	 li a:hover{color:#ff6700;}
+	.toolbar .toolbar_l li {float:left;width:35;line-height:35px;padding:0px 8px;}
+	.toolbar .toolbar_r li {float:right;width:35;line-height:35px;padding:0px 16px;}
+	.toolbar .toolbar_r .color_gray {color:gray ;font-size:12px;}
+	
+
+	/**logo搜索栏**/
+	.logo_item{width:1349px;height:80px;}
+	.logo_pic img{margin:8px 15px;width:220px;}
+	.logo_pic,.logo_search {float:left;}
+	.logo_item .logo_search{margin:10px 90px;}
+	.logo_item .search_bar{width:450px;height:32px;border:2px solid gray;padding-left:4px;}
+	
+	.logo_item .button{position:relative;top:11px;width:50px;border-radius:4px;}
+	
+	/**导航栏**/
+	.nav_bar{width:1349px;height:40px;background:#32465d;}
+	.nav_bar li{float:left;padding:0px 30px;}
+	.nav_bar li a{color:white;display:block;height:40px;line-height:40px;padding:0px 8px;}
+	.nav_bar li a:hover{background:#1690cf;}
+	
+	/**换页**/
+	.nextpage{height:50px;}
+	.nextpage li{float:right;height:35px;line-height:35px;padding:0px 15px;}
+	.nextpage ul{margin:8px 50px;}
+	.nextpage .block{border:1px solid #f2f2f2;background:#ffffff;}
+	.nextpage .block:hover{border:1px solid #32465d;}
+	.clear{clear:both;}
+
+
+	/**根部信息栏**/
+	.footinfo{background:#32465d;width:1349px;height:144px;}
+	.footinfo ul{height:50px;width:620px;margin:0 450px;}
+	.footinfo li {float:left;height:40px;line-height:40px;padding:4px 25px;}
+	.footinfo li a{color:white;font-size:14px;}
+	.policy{height:30px;background:#32465d;text-align:center;color:white;}
+	.footinfo .footlogo{height:60px;position:relative;left:550px;}
+	
+		
+		/**导航栏**/
+		.nav_bar{width:1349px;height:40px;background:#32465d;}
+		.nav_bar li{float:left;margin-left:80px;}
+		.nav_bar li a{color:white;display:block;height:40px;line-height:40px;padding:0px 8px;}
+		.nav_bar li a:hover{background:#1690cf;}	
+
+
+		/**当前所在位置**/
+		.current_loc{width:1300px;height:40px;margin:0px auto;}
+		.current_loc span{display:block;height:40px;line-height:40px;padding:0px 200px;font-family:宋体;
+		font-size:12px;}
+		.current_loc a{font-family:宋体;font-size:12px;color:#1690cf;}
+		.current_loc a:hover{color:#1690cf;}
+		
+		/**购物车列表**/
+		
+		.cartlist{width:1300px;margin:30px auto;}
+		.cartlist table{width:1300px;border-collapse:collapse;}
+		.cartlist table .row1 td{height:10px;padding:10px 65px;border-bottom:solid 1px #f5f5f5;font-weight:bold;background:#f6f6f6;}
+		.cartlist table .row2 td{height:50px;line-height:50px;padding:0 50px;border-bottom:solid 1px #efefef;}
+		.cartlist .row2 .del{width:60px;position:relative;left:0px;top:6px;cursor:pointer;}
+		/*图片边框限制*/
+		.cartlist .adjust{position:relative;top:10px;width:110x;height:60px;}
+		
+		/*数量框*/
+		.cartlist .input{width:40px;border-top:1px solid gray;padding:2px 4px;}
+		/*价格栏*/
+		.total{height:72px;}
+		.total_prc{float:right;margin:4px 55px;padding:15px 10px;}
+		.cartlist .price{color:#ff6700;font-size:20px;}
+		.car_pic img{width:120px;position:relative;top:15px;left:24px;}
+		.cartlist .clear{clear:both;}
+		
+		/*地址栏*/
+		.addr{height:150px;line-height:100px;width:1300px;margin-top:20px;border-top:1px solid #d2d2d2;border-bottom:1px solid #d2d2d2;}
+		.addr .title{background:#fafafa; height:40px;line-height:40px;font-weight:bold;}
+		.addr1{height:30px;width:200px;padding:0px 10px;}
+		.addr .ps{width:400px;height:30px;}
+		/*提交购物按钮*/
+		.addr .button{margin:25px 10px;float:right;}
+		 .blank{height:90px;}
+

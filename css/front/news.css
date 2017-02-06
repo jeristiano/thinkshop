@@ -1,0 +1,14 @@
+
+/*导航栏*/
+.navigator{height:40px;background:#1690cf;width:900px;margin:10px auto;}
+.navigator li{height:40px;line-height:40px;padding:0px 30px;float:left;}
+.navigator li a{color:#f3f3f3;}
+.navigator li:hover{background:#ff6700;}
+
+/**主内容页面**/
+.news{width:900px;border:2px #ebebeb solid;margin:0px auto;height:500px;}
+.news .ul .title{font-size:18px;font-weight:bold;height:35px;line-height:35px;background:#f5f5f5;padding:0px 8px;}
+.news .ul li a{display:block;color:#32465d;height:40px;line-height:40px;border-bottom:1px solid #f5f5f5;padding:0 8px;}
+.news .ul li a:hover{text-decoration:underline;color:#0000ff;}		
+.clear{height:50px;}	
+	

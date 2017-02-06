@@ -1,0 +1,16 @@
+
+		/*导航栏*/
+		.navigator{height:40px;background:#1690cf;width:900px;margin:10px auto;}
+		.navigator li{height:40px;line-height:40px;padding:0px 20px;float:left;}
+		.navigator li a{color:#f3f3f3;}
+		.navigator li:hover{background:#ff6700;}
+		
+		/**主内容页面**/
+		.news{width:900px;border:2px #ebebeb solid;margin:0px auto;}
+		.item td{width:900px;font-size:20px;font-weight:bold;height:35px;line-height:35px;background:#f5f5f5;text-align:center;}	
+		.info td{height:30px;font-size:14px;padding:0 8px;border-bottom:1px dashed #e4e4e4;}
+		.author td{text-align:right;font-size:18px;font-weight:bold;height:40px;padding:0 8px}
+		.report td{padding:4px 12px;}
+		.read{color:#404040;font-size:18px;padding:0 8px;border-top:1px dashed #e4e4e4;height:40px;font-weight:bold;}
+		.clear{height:50px;}
+	

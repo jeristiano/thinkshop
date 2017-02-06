@@ -1,0 +1,53 @@
+
+	/**当前所在位置**/
+	.current_loc{width:1349px;height:40px;border-bottom:1px solid gray;}
+	.current_loc span{display:block;height:30px;line-height:30px;padding:0px 180px;font-family:宋体;
+	font-size:12px;}
+	.current_loc a{font-family:宋体;font-size:12px;color:#1690cf;}
+	.current_loc a:hover{color:#1690cf;}
+
+
+/**产品主页**/
+
+
+.product {width:1300px;margin:0 auto;}	
+.product_l {float:left;width:550px;margin:0px 60px;}
+.product_r {width:550px;float:left ;margin:0px 40px;}
+
+/*大图*/
+ #bigimg {margin-top:4px;border:1px solid white;width:550px;height:260px;border-radius:4px;box-shadow: 4px 4px 6px #eeeeee;}
+.product_l .smpic{border-radius:4px;width:150px;height:80px;position:relative;left:100px;border-radius:2px;margin:10px 4px;border:1px white solid;}
+
+.product_r  .table {width:500px;height:300px;}
+.product_l img:hover{border:1px solid #1690cf;border-radius:4px;}
+.product_r   .table{border-top:1px solid #f0f0f0;}
+.product_r   .table td {border-bottom:1px solid #efefef;height:40px; line-height:40px;padding:0px 8px;}
+.product_r  table .tr0 td {color:#32465d;height:35px;font-size:20px;font-weight:bold;}
+.product_r  table .tr1 td {color:#ff6700;height:32px;font-size:20px ;background:#f0f0f0;}
+.product_r  table .tr2 td {height:32px;font-size:14px ;background:#f0f0f0;}
+.product_r  table .tr4 td {height:100px;}
+.product_r  table .tr5 td {color:#ff6700;}
+.product_r  table .tr7 input {position:relative;top:4px;}
+
+/**产品描述**/
+.course{width:1300px;margin:0px auto;}
+.course_top{background:#efefef;color:#32465d;display:block;font-size:20px;line-height:50px;height:50px;padding:0px 8px;box-shadow: 4px 4px 6px #eeeeee;}
+.course_detail{display:block;padding:10px 8px;}
+.course .course_detail{color:red;} 
+
+
+/**产品评论**/
+.comment{width:1300px;margin:0px auto;}
+.comment_cont1 {background:#efefef;color:#32465d;display:block;font-size:20px;line-height:50px;height:50px;padding:0px 8px;box-shadow: 4px 4px 6px #eeeeee;}
+.comment  .comment_cont a {color:#ff6700;}
+.com_content{width:1300px;margin:8px 0px;height:120px;border-bottom:1px dashed #efefef;}
+.com_content .td1{color:#32465d;padding:0px 8px;}
+.com_content .td2{padding:0px 8px;height:90px;}
+
+/**换页**/
+	.nextpage{height:50px;}
+	.nextpage li{float:right;height:35px;line-height:35px;padding:0px 15px;}
+	.nextpage ul{margin:8px 50px;}
+	.nextpage .block{border:1px solid #f2f2f2;background:#ffffff;}
+	.nextpage .block:hover{border:1px solid #32465d;}
+	.clear{clear:both;}

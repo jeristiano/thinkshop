@@ -1,0 +1,40 @@
+
+/*当编辑用户管理时,为此条框加伪类*/
+#ul3{border:1px solid #32465d;}
+
+/*点击商品信息时,标题信息加亮*/
+.comments{color:#ff9933;}
+
+/*右边框样式*/
+.location span{float:left;display:block;height:20px;line-height:20px;}
+.location span{color:white;font-size:14px;padding:15px 8px;}
+.location span a{font-size:14px;}
+.location{margin-top:0px}
+.location span{color:white;font-size:14px;padding:15px 4px;}
+.win_main{margin-top:15px;}
+.ad_frm{width:1060px;margin:20px 0px;border:1px solid #e6e6e6;border-radius:6px;}
+.ad_frm .location{background:#f6f6f6;}
+.ad_frm .location span{font-weight:bold;font-size:16px;color:#4f4f4f;}
+
+/*表格属性*/
+.table table{width:1060px;border-collapse:collapse;margin-top:15px;}
+.table .tr1 td{font-weight:bold;font-size:16px;color:#4f4f4f;}
+.table .tr2 td{height:120px;}
+.table td{border-top:1px #f3f3f3 solid;padding:0px 8px;font-size:14px;}
+.table .td1{width:60px;}
+.table .td2{height:80px;width:50px;}
+.table .img{width:90px;height:50px;}
+.table .td3{width:220px;}
+.table .td4{width:400px;}
+.table .td5{width:100px;}
+.table .td6{width:100px;}
+.table .check2 {color:#32465d;font-size:16px;}
+.table .check1 a{color:#bd0000;font-size:16px;}
+
+/**换页**/
+.nextpage{height:50px;}
+.nextpage li{float:right;height:35px;line-height:35px;padding:0px 15px;}
+.nextpage ul{margin:8px 50px;}
+.nextpage .block{border:1px solid #f2f2f2;background:#ffffff;border-radius:4px;}
+.nextpage .block:hover{border:1px solid #32465d;border-radius:4px;}
+.clear{clear:both;}

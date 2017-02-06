@@ -1,0 +1,16 @@
+
+/**初始化信息**/
+*{padding:0px;margin:0px;font-size:16px;color:#000000;font-family:微软雅黑;text-decoration:none;list-style-type:none;}
+/**背景图片**/
+body{background:#32465d;}
+/**外框**/
+.wrap{margin:140px 450px;width:410px;}
+/**logo栏**/
+.logo img{width:320px;margin:0px 66px;display:block;}
+
+/**登录框**/
+	.login{width:490px;height:200px;}
+	.login table td{height:55px;}
+	.title{width:80px;font-size:20px;font-weight:bold;color:#f5f5f5;}
+	.input{width:290px;height:36px;}
+	.sub{width:290px;cursor:pointer;position:relative;left:84px;margin-top:10px;}

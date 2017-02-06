@@ -1,0 +1,20 @@
+				
+		/**订单列表**/
+		
+		.orderlist{width:1300px;margin:20px auto;}
+		.orderlist .od_table{width:1300px;height:40px;background:#f3f3f3;}
+		
+		.od_table .td1{width:150px;padding:0 15px;}
+		.td2{width:450px;padding:0 10px;}
+		.td3{width:300px;padding:0 10px;}
+		.td4{width:300px;padding:0 10px;}
+		.td5{width:200px;padding:0 10px;}
+		.od_table2{margin-top:20px;border-top:1px solid #e1e1e1;border-bottom:1px solid #e1e1e1;padding:0 10px;}
+		.od_table2  img{width:130px;height:70px;}
+		.od_table2 .td0{height:40px;font-size:14px;border-bottom:1px solid #f2f2f2;}
+		.od_table2 .td1{height:90px;}
+	
+		.orderlist .clear{clear:both;}
+		.submit {height:90px;}
+		.orderlist .adjust{position:relative;top:40px;right:40px;cursor:pointer;float:right;}
+		.block{height:266px;}

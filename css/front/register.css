@@ -1,0 +1,35 @@
+
+			/*初始化信息*/
+		*{padding:0px;margin:0px;font-size:16px;color:#2d2d2d;font-family:微软雅黑;text-decoration:none;list-style-type:none;}
+		/*边框*/
+		 .wrap{width:1349px;margin:0 auto;}
+		body{background:#32465d;}
+		/*logo*/
+		
+		 img{position:relative;left:10px;top:4px;width:180px;}
+		.reg {width:60px;height:40px;line-height:40px;background:#d5d5d5;float:right;margin:12px 14px;border-radius:4px;text-align:center;}
+		.reg a {color:white;}
+
+		 /*表单*/
+		.form{height:660px;}
+		.form table{margin:0 450px;}
+		.fr_logo img{width:280px;}		
+		.form .input input {width:300px;height:35px;border:1px solid white;border-radius:2px;padding-left:8px;}			
+		.login input{width:310px;}	
+		.login input{border-radius:2px;position:relative;left:0px;cursor:pointer; }
+		.forgetpwd a{color:white;font-size:14px;}
+		/*表格*/
+		table tr{height:50px;}
+		table td{color:white;}
+		/*验证码*/
+		.code img{width:120px;height:45px;}
+		.forgetpwd a:hover{text-decoration:underline;color:	#2fa2ff;}
+		/*根部信息*/
+		.clear{clear:both;}
+		.foot{height:55px;}
+		
+		.foot li{float:left;line-height:40px; height:40px;margin-top:20px;padding:0px 12px;}
+		li a{color:white;font-size:14px;}
+		
+	
+		

@@ -1,0 +1,44 @@
+
+	/*当编辑用户管理时,为此条框加伪类*/
+		#ul3{border:1px solid #32465d;}
+	
+	/*点击商品信息时,标题信息加亮*/
+	.orders{color:#ff9933;}
+
+	/*右边框样式*/
+		
+		.location span{float:left;display:block;height:20px;line-height:20px;}
+		.location span{color:white;font-size:14px;padding:15px 8px;}
+		.location span a{font-size:14px;}
+		.location{margin-top:0px}
+		.location span{color:white;font-size:14px;padding:15px 4px;}
+		.win_main{margin-top:15px;}
+		.ad_frm{width:1060px;margin:20px 0px;border:1px solid #e6e6e6;border-radius:6px;}
+		.ad_frm .location{background:#f5f5f5;}
+		.ad_frm .location span{color:#282828;font-size:16px;}
+	/*订单分类*/
+		.table{width:1060px;border-collapse:collapse;margin-top:15px;}
+		.tr2{height:40px;}
+		.table td{border-top:1px #f3f3f3 solid;padding:0px 8px;font-size:14px;}
+		.table .td1{height:40px;background:#f5f5f5;}
+		.table .td2{height:40px;width:50px;}
+		.table .td3{width:80px;}
+		.table .td4{width:200px;}
+		.table .td5{width:60px;}
+		.table .td6{width:40px;}
+		.table .td7{width:100px;}
+		.table .td8{width:200px;}
+		.table .td10{width:200px;}
+		.table .td11 {background:#f5f5f5;height:40px;line-height:40px;}
+		.table .td11 a{color:#00cc00;font-size:16px;font-weight:bold;}
+		.table .td12{color:#ff9900;font-size:16px;font-weight:bold;height:40px;line-height:40px;background:#f5f5f5;}
+		.table .td13{color:#32465d;font-size:16px;font-weight:bold;height:40px;line-height:40px;background:#f5f5f5;}
+		.img{width:90px;height:50px;}
+		
+	/**换页**/
+	.nextpage{height:50px;}
+	.nextpage li{float:right;height:35px;line-height:35px;padding:0px 15px;}
+	.nextpage ul{margin:8px 50px;}
+	.nextpage .block{border:1px solid #f2f2f2;background:#ffffff;border-radius:4px;}
+	.nextpage .block:hover{border:1px solid #32465d;border-radius:4px;}
+	.clear{clear:both;}

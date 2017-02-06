@@ -1,0 +1,48 @@
+/**初始化信息**/
+	*{padding:0px;margin:0px;font-size:16px;color:#000000;font-family:微软雅黑;text-decoration:none;list-style-type:none;}
+
+	/**外边框**/
+	
+	.wrap{width:1349px;margin:0px auto;}
+	
+	/**顶部工具栏**/
+	.toolbar{width:1349px;height:35px;background:#f5f8fa;}
+	.toolbar li,.toolbar a {float:left; color:#414141;font-size:14px;}
+	 li a:hover{color:#ff6700;}
+	.toolbar .toolbar_l li {float:left;width:35;line-height:35px;padding:0px 8px;}
+	.toolbar .toolbar_r li {float:right;width:35;line-height:35px;padding:0px 16px;}
+	.toolbar .toolbar_r .color_gray {color: #464646 ;font:14px;}
+	
+
+	/**logo搜索栏**/
+	.logo_item{width:1349px;height:80px;}
+	.logo_pic img{margin:8px 15px;width:220px;}
+	.logo_pic,.logo_search {float:left;}
+	.logo_item .logo_search{margin:10px 90px;}
+	.logo_item .search_bar{width:450px;height:32px;border:2px solid #32465d;padding-left:8px;border-radius:4px;}
+	.logo_item .button{position:relative;top:11px;width:50px;border-radius:4px;}
+	
+	
+	/**导航栏**/
+	.nav_bar{width:1349px;height:40px;background:#32465d;}
+	.nav_bar li{float:left;padding:0px 30px;}
+	.nav_bar li a{color:white;display:block;height:40px;line-height:40px;padding:0px 8px;}
+	.nav_bar li a:hover{background:#1690cf;}
+	
+	/**换页**/
+	.nextpage{height:50px;}
+	.nextpage li{float:right;height:35px;line-height:35px;padding:0px 15px;}
+	.nextpage ul{margin:8px 50px;}
+	.nextpage .block{border:1px solid #f2f2f2;background:#ffffff;border-radius:4px;}
+	.nextpage .block:hover{border:1px solid #32465d;border-radius:4px;}
+	.clear{clear:both;}
+
+
+	/**根部信息栏**/
+	.footinfo{background:#32465d;width:1349px;height:144px;}
+	.footinfo ul{height:50px;width:620px;margin:0 450px;}
+	.footinfo li {float:left;height:40px;line-height:40px;padding:4px 25px;}
+	.footinfo li a{color:white;font-size:14px;}
+	.policy{height:30px;background:#32465d;text-align:center;color:white;}
+	.footinfo .footlogo{height:60px;position:relative;left:550px;}
+	
